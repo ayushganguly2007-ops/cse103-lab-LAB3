@@ -6,29 +6,28 @@
 
 ## Overview
 
-This repository contains lab work for **LAB 3** of the
-Computer Fundamentals & Career Pathways (CSE103) course at
-**K.R. Mangalam University**, Gurugram.
+This repository contains lab work for **LAB 3** of the Computer Fundamentals & Career Pathways (CSE103) course at **K.R. Mangalam University**, Gurugram. The exercises cover Git and GitHub collaboration, Python, API interaction, and Markdown documentation.
 
 ## Repository Structure
 
-```
+```text
 cse103-lab-LAB3/
-+-- README.md      # Project documentation (this file)
-+-- CHANGELOG.md   # Version history
-+-- main.py        # Primary Python script
-+-- .gitignore     # Files excluded from Git tracking
+├── README.md             # Project documentation
+├── MARKDOWN_GUIDE.md    # Markdown syntax reference/examples
+├── CHANGELOG.md         # Version history
+├── main.py             # Primary Python script
+└── .gitignore          # Files excluded from Git tracking
 ```
 
 ## Skills Demonstrated
 
-| Skill                | Status      |
-|----------------------|-------------|
-| Git initialisation   | Completed   |
-| Meaningful commits   | Completed   |
-| Remote push / pull   | Completed   |
-| Markdown docs        | Completed   |
-| API interaction      | Completed   |
+| Skill | Status |
+|---|---|
+| Git initialisation | Completed |
+| Meaningful commits | Completed |
+| Remote push / pull workflow | Practiced |
+| Markdown documentation | Completed |
+| API interaction | Completed |
 
 ## How to Run
 
@@ -41,17 +40,12 @@ python3 main.py
 ## Key Learning Outcomes
 
 - Configured Git identity and initialised local repositories
-- Created atomic commits with Conventional Commit messages
+- Created commits with meaningful messages
 - Pushed and pulled changes with a GitHub remote
-- Authored structured Markdown documentation
+- Authored structured Markdown documentation with headings, lists, code blocks, links, tables, blockquotes, and badges
 
 ## References
 
 - [Pro Git Book](https://git-scm.com/book/en/v2)
 - [GitHub Skills](https://skills.github.com/)
 - [Markdown Guide](https://www.markdownguide.org/)
-
-
-## Git remote workflow practice
-
-This README update was committed directly on GitHub to practice retrieving remote changes with `git pull`.
