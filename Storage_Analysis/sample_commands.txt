@@ -1,0 +1,28 @@
+# Linux commands for the Storage Analysis practical
+
+# 1. Create folders
+mkdir -p ~/Storage_Analysis/{Documents,Images,Media}
+
+# 2. Create representative placeholder files (empty placeholders)
+touch ~/Storage_Analysis/Documents/notes.txt
+touch ~/Storage_Analysis/Images/sample_photo.jpg
+touch ~/Storage_Analysis/Media/sample_audio.mp3
+
+# 3. Display folder hierarchy
+find ~/Storage_Analysis -maxdepth 2 -print
+
+# 4. File details and type
+ls -lh ~/Storage_Analysis/Documents
+file ~/Storage_Analysis/Documents/notes.txt
+du -sh ~/Storage_Analysis
+
+# 5. Filesystem usage and block devices
+df -h
+lsblk
+
+# 6. Move/copy examples
+mv ~/Storage_Analysis/Documents/notes.txt ~/Storage_Analysis/Media/notes.txt
+cp ~/Storage_Analysis/Media/notes.txt ~/Storage_Analysis/Documents/notes_copy.txt
+
+# Note: touch-created files are zero bytes. To compare realistic sizes, place actual
+# text, image, and media sample files into the matching folders and run ls -lh/du again.
