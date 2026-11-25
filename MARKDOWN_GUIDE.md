@@ -1,41 +1,62 @@
-nano MARKDOWN_GUIDE.md# Heading 1 (largest)
+# Markdown Syntax Reference
+
+This file is a practice guide to common Markdown syntax used in GitHub documentation.
+
+## Headings
+
+# Heading 1 (largest)
 ## Heading 2
 ### Heading 3
 
-**Bold text** *Italic text* ~~Strikethrough~~
+## Text Formatting
 
-Unordered list:
+**Bold text**  
+*Italic text*  
+~~Strikethrough~~
+
+## Unordered Lists
 
 - Item A
 - Item B
-  - Nested item B1 (indent with 2 spaces)
+  - Nested item B1
 
-Ordered list:
+## Ordered Lists
 
 1. First step
 2. Second step
 
-Inline code: `print("Hello")`
+## Inline Code
 
-Fenced code block (use language name for syntax highlighting):
+Use inline code for short commands or snippets: `print("Hello")`
+
+## Fenced Code Block
+
+Use a language label for syntax highlighting:
 
 ```python
 def greet(name):
     return f"Hello, {name}!"
 ```
 
-Hyperlink: [GitHub](https://github.com)
+## Hyperlinks
 
-Table:
+[GitHub](https://github.com)
+
+## Tables
 
 | Column 1 | Column 2 | Column 3 |
 |----------|:--------:|---------:|
 | Left     | Centre   | Right    |
 
-Blockquote:
+## Blockquotes
 
 > An important note or reference goes here.
 
-Horizontal divider:
+## Horizontal Divider
 
 ---
+
+## Markdown Resources
+
+- [Markdown Guide](https://www.markdownguide.org/)
+- [GitHub Markdown Documentation](https://docs.github.com/en/get-started/writing-on-github)
